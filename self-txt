@@ -1,4 +1,4 @@
-version-0c1a10704cb043cc
+version-b7eebc919e96477a
 constexpr std::uint32_t RenderToEngine = 0x10;
 constexpr std::uint32_t RenderToFakeDataModel = 0x118;
 constexpr std::uint32_t FakeDataModelToRealDataModel = 0x1a8;
@@ -27,7 +27,7 @@ constexpr std::uint32_t MaxSlopeAngle = 0x1b0;
 constexpr std::uint32_t RigType = 0x1c0;
 constexpr std::uint32_t MoveDirection = 0x150;
 constexpr std::uint32_t Sit = 0x1d4;
-constexpr std::uint32_t Primitive = 0x2B0;
+constexpr std::uint32_t Primitive = 0x160;
 constexpr std::uint32_t BasePartSize = 0x2ac;
 constexpr std::uint32_t BasePartPosition = 0x140;
 constexpr std::uint32_t CFrame = 0x11c;
