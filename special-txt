@@ -1,18 +1,18 @@
-version-32f36ac944b34913
-constexpr std::uint32_t GetTaskScheduler = 0x2d789e5;
-constexpr std::uint32_t Print = 0x12e06d0;
-constexpr std::uint32_t PrintIdentity = 0xe3b8c0;
-constexpr std::uint32_t VMLoad = 0xaec2c0;
-constexpr std::uint32_t LRegister = 0x2651ab0;
-constexpr std::uint32_t LPushVFString = 0x2ee25c2;
-constexpr std::uint32_t DThrow = 0x264cad0;
-constexpr std::uint32_t LGetMetaField = 0x25b33f0;
-constexpr std::uint32_t MFree = 0x26a94a0;
-constexpr std::uint32_t PushInstance = 0xe1c8d0;
-constexpr std::uint32_t GetLuaState = 0xd31120;
-constexpr std::uint32_t DecryptLuaState = 0xae9310;
-constexpr std::uint32_t TaskDefer = 0xebcf70;
-constexpr std::uint32_t TaskSpawn = 0xe3c080;
-constexpr std::uint32_t TaskDelay = 0xe3aa50;
-constexpr std::uint32_t Pseudo2Addr = 0x264ae50;
-constexpr std::uint32_t TaskSchedulerPointer = 0x5ac4700;
+version-8aa36bbf0eb1494a
+constexpr std::uint32_t GetTaskScheduler = Outdated;
+constexpr std::uint32_t Print = Outdated;
+constexpr std::uint32_t PrintIdentity = Outdated;
+constexpr std::uint32_t VMLoad = Outdated;
+constexpr std::uint32_t LRegister = Outdated;
+constexpr std::uint32_t LPushVFString = Outdated;
+constexpr std::uint32_t DThrow = Outdated;
+constexpr std::uint32_t LGetMetaField = Outdated;
+constexpr std::uint32_t MFree = Outdated;
+constexpr std::uint32_t PushInstance = Outdated;
+constexpr std::uint32_t GetLuaState = Outdated;
+constexpr std::uint32_t DecryptLuaState = Outdated
+constexpr std::uint32_t TaskDefer = Outdated;
+constexpr std::uint32_t TaskSpawn = Outdated;
+constexpr std::uint32_t TaskDelay = Outdated;
+constexpr std::uint32_t Pseudo2Addr = Outdated;
+constexpr std::uint32_t TaskSchedulerPointer = Outdated;
