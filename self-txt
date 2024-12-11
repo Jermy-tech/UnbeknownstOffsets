@@ -1,4 +1,4 @@
-version-a2fb906f52d742c1
+version: b71c150c7c1f40de
 constexpr std::uint32_t RenderToEngine = 0x10;
 constexpr std::uint32_t RenderToFakeDataModel = 0x118;
 constexpr std::uint32_t FakeDataModelToRealDataModel = 0x1a8;
@@ -50,14 +50,13 @@ constexpr std::uint32_t CameraFocus = 0x108;
 constexpr std::uint32_t CameraFOV = 0x140;
 constexpr std::uint32_t Brightness = 0x118;
 constexpr std::uint32_t FogEnd = 0x128;
-constexpr std::uint32_t GlobalShadows = 0x134;
+constexpr std::uint32_t GlobalShadows = 0x13c;
 constexpr std::uint32_t ClientDimensions = 0x740;
 constexpr std::uint32_t ViewMatrix = 0x4d0;
-constexpr std::uint32_t AbsolutePosition = 0x108;
 constexpr std::uint32_t AbsoluteSize = 0x110;
 constexpr std::uint32_t Value = 0xc8;
-constexpr std::uint32_t TextLabelColor3 = 0xaf0;
-constexpr std::uint32_t TextLabelText = 0xa48;
+constexpr std::uint32_t TextLabelColor3 = 0xb40;
+constexpr std::uint32_t TextLabelText = 0xa98;
 constexpr std::uint32_t Adornee = 0xc8;
 constexpr std::uint32_t MouseSensitivity = 0x234;
 constexpr std::uint32_t InputObject = 0xf8;
