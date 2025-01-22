@@ -1,4 +1,4 @@
-version-080ad6451df24461
+version-ecc9c250281b4c14
 constexpr std::uint32_t GetTaskScheduler = OUTDATED;
 constexpr std::uint32_t Print = 0x13CDA30;
 constexpr std::uint32_t PrintIdentity = 0xE4FC70;
