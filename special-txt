@@ -24,6 +24,7 @@ constexpr std::uint32_t GetFFlag = 0x3031AD0;
 constexpr std::uint32_t SetFFlag = 0x3033260;
 constexpr std::uint32_t RequestCode = 0x917400;
 constexpr std::uint32_t GetValue = 0x17E6FB0;
+constexpr std::uint32_t ScriptContextResume = 0xDC7F40;
 constexpr std::uint32_t LUAVM_SHUFFLE3 = (s, a1, a2, a3) a3 s a1 s a2;
 constexpr std::uint32_t LUAVM_SHUFFLE4 = (s, a1, a2, a3, a4) a3 s a1 s a2 s a4;
 constexpr std::uint32_t LUAVM_SHUFFLE5 = (s, a1, a2, a3, a4, a5) a4 s a3 s a2 s a5 s a1;
