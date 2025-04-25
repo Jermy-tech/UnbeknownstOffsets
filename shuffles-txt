@@ -1,4 +1,4 @@
-unknown-version
+version-a9a5d0b275a34ffb
 constexpr std::uint32_t LUAU_SHUFFLE3 = (s, a1, a2, a3) a3 s a2 s a1;
 constexpr std::uint32_t LUAU_SHUFFLE4 = (s, a1, a2, a3, a4) a2 s a1 s a4 s a3;
 constexpr std::uint32_t LUAU_SHUFFLE5 = (s, a1, a2, a3, a4, a5) a4 s a3 s a2 s a5 s a1;
