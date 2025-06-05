@@ -1,18 +1,25 @@
-version-ad3ee47cdc5e44f6
+version-e1da58b32b1c4d64
+constexpr std::uint32_t LUAVM_SHUFFLE3 = (sep, a1, a2, a3) a1 sep a3 sep a2;
+constexpr std::uint32_t LUAVM_SHUFFLE4 = (sep, a1, a2, a3, a4) a3 sep a2 sep a4 sep a1;
+constexpr std::uint32_t LUAVM_SHUFFLE5 = (sep, a1, a2, a3, a4, a5) a1 sep a2 sep a5 sep a4 sep a3;
+constexpr std::uint32_t LUAVM_SHUFFLE6 = (sep, a1, a2, a3, a4, a5, a6) a2 sep a4 sep a3 sep a1 sep a5 sep a6;
+constexpr std::uint32_t LUAVM_SHUFFLE7 = (sep, a1, a2, a3, a4, a5, a6, a7) a6 sep a2 sep a7 sep a3 sep a1 sep a4 sep a5;
+constexpr std::uint32_t LUAVM_SHUFFLE8 = (sep, a1, a2, a3, a4, a5, a6, a7, a8) a5 sep a4 sep a8 sep a3 sep a2 sep a1 sep a7 sep a6;
+constexpr std::uint32_t LUAVM_SHUFFLE9 = (sep, a1, a2, a3, a4, a5, a6, a7, a8, a9) a9 sep a7 sep a3 sep a5 sep a1 sep a6 sep a2 sep a8 sep a4;
+constexpr std::uint32_t PROTO_MEMBER2_ENC = VMValue4;
+constexpr std::uint32_t CLOSURE_DEBUGNAME_ENC = VMValue4;
+constexpr std::uint32_t PROTO_DEBUGISN_ENC = vmvalue3;
+constexpr std::uint32_t CLOSURE_CONT_ENC = VMValue3;
+constexpr std::uint32_t UDATA_META_ENC = VMValue3;
+constexpr std::uint32_t PROTO_TYPEINFO_ENC = vmvalue2;
+constexpr std::uint32_t LSTATE_STACKSIZE_ENC = VMValue2;
+constexpr std::uint32_t PROTO_DEBUGNAME_ENC = VMValue1;
+constexpr std::uint32_t TSTRING_HASH_ENC = VMValue1;
 constexpr std::uint32_t PROTO_MEMBER1_ENC = VMValue0;
-constexpr std::uint32_t PROTO_MEMBER2_ENC = VMValue2;
-constexpr std::uint32_t PROTO_DEBUGISN_ENC = vmvalue4;
-constexpr std::uint32_t PROTO_TYPEINFO_ENC = vmvalue1;
-constexpr std::uint32_t PROTO_DEBUGNAME_ENC = VMValue3;
-constexpr std::uint32_t LSTATE_STACKSIZE_ENC = VMValue1;
-constexpr std::uint32_t LSTATE_GLOBAL_ENC = VMValue0;
 constexpr std::uint32_t CLOSURE_FUNC_ENC = VMValue0;
-constexpr std::uint32_t CLOSURE_CONT_ENC = VMValue4;
-constexpr std::uint32_t CLOSURE_DEBUGNAME_ENC = VMValue2;
+constexpr std::uint32_t LSTATE_GLOBAL_ENC = VMValue0;
+constexpr std::uint32_t TSTRING_LEN_ENC = VMvalue0;
 constexpr std::uint32_t TABLE_META_ENC = VMValue0;
 constexpr std::uint32_t TABLE_MEMBER_ENC = VMValue0;
-constexpr std::uint32_t UDATA_META_ENC = VMValue4;
-constexpr std::uint32_t TSTRING_HASH_ENC = VMValue3;
-constexpr std::uint32_t TSTRING_LEN_ENC = VMvalue0;
 constexpr std::uint32_t GSTATE_TTNAME_ENC = VMValue0;
 constexpr std::uint32_t GSTATE_TMNAME_ENC = VMValue0;
