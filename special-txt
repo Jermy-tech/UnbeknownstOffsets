@@ -1,63 +1,77 @@
-version-78712d8739f34cb9
-constexpr std::uint32_t AppdataInfo = 67D08E8;
-constexpr std::uint32_t EnableLoadModule = 5AEE108;
-constexpr std::uint32_t FlogDataBank = 63F47B8;
-constexpr std::uint32_t IdentityPtr = 63D6938;
-constexpr std::uint32_t KTable = 63A09E0;
-constexpr std::uint32_t LockViolationInstanceCrash = 5AFA958;
-constexpr std::uint32_t LuaH_DummyNode = 46F94E8;
-constexpr std::uint32_t LuaO_NilObject = 46F9AC8;
-constexpr std::uint32_t LuaT_Eventnames = 46F9A20;
-constexpr std::uint32_t LuaT_Typenames = 46F99C0;
-constexpr std::uint32_t RawScheduler = 6897128;
-constexpr std::uint32_t TaskSchedulerTargetFps = 63A0968;
-constexpr std::uint32_t FireMouseClick = 1C67EE0;
-constexpr std::uint32_t FireRightMouseClick = 1C68080;
-constexpr std::uint32_t FireMouseHoverEnter = 1C69480;
-constexpr std::uint32_t FireMouseHoverLeave = 1C69620;
-constexpr std::uint32_t FireProximityPrompt = 1D33090;
-constexpr std::uint32_t FireTouchInterest = 14536B0;
-constexpr std::uint32_t GetContextObject = DDA940;
-constexpr std::uint32_t GetCurrentThreadId = 38220E0;
-constexpr std::uint32_t GetFFlag = 3841C60;
-constexpr std::uint32_t GetGlobalState = DC1FE0;
-constexpr std::uint32_t GetIdentityStruct = 3822310;
-constexpr std::uint32_t GetLuaState = B4FAF0;
-constexpr std::uint32_t GetModuleFromVMStateMap = F0B800;
-constexpr std::uint32_t GetProperty = A6A290;
-constexpr std::uint32_t GetValues = BDC890;
-constexpr std::uint32_t Impersonator = 333A070;
-constexpr std::uint32_t LuaA_toobject = 26558D0;
-constexpr std::uint32_t LuaC_step = 26660D0;
-constexpr std::uint32_t LuaD_throw = 26665E0;
-constexpr std::uint32_t LuaL_checklstring = 26592F0;
-constexpr std::uint32_t LuaL_getmetafield = 26597F0;
-constexpr std::uint32_t LuaL_register = 265B190;
-constexpr std::uint32_t LuaM_visitgco = 26AE630;
-constexpr std::uint32_t LuaO_pushvfstring = 26C3C10;
-constexpr std::uint32_t LuaVM_Load = B54010;
-constexpr std::uint32_t Luau_Execute = 2698E80;
-constexpr std::uint32_t Print = 156CBB0;
-constexpr std::uint32_t Pseudo2Addr = 2655810;
-constexpr std::uint32_t PushInstance1 = E9B380;
-constexpr std::uint32_t PushInstance2 = E9B3D0;
-constexpr std::uint32_t RaiseEventInvocation = 1518050;
-constexpr std::uint32_t RequestCode = FE8550;
-constexpr std::uint32_t ScriptContextResume = DD1C50;
-constexpr std::uint32_t SetFFlag = 38426F0;
-constexpr std::uint32_t SetProtoCapabilities = C736D0;
-constexpr std::uint32_t TaskSynchronize = FE3940;
-constexpr std::uint32_t TaskDesynchronize = FE3E60;
-constexpr std::uint32_t TaskDefer = FE4A60;
-constexpr std::uint32_t TaskSpawn = FE4D80;
-constexpr std::uint32_t TaskDelay = FE5110;
-constexpr std::uint32_t TaskWait = FE54B0;
-constexpr std::uint32_t TaskCancel = FE56E0;
-constexpr std::uint32_t VariantCastInt = 14FB960;
-constexpr std::uint32_t VariantCastInt64 = 14FBC70;
-constexpr std::uint32_t VariantCastFloat = 14FC2B0;
-constexpr std::uint32_t const uintptr_t BitMap = REBASEHYPERION(0x283C90);
-constexpr std::uint32_t const uintptr_t SetInsert = REBASEHYPERION(0xB651E0);
-constexpr std::uint32_t const uintptr_t WhitelistedPages = REBASEHYPERION(0x2B5548);
-constexpr std::uint32_t PageHash = 3397FC9F;
-constexpr std::uint32_t ByteHash = 46;
+version-225e87fdb7254f64
+// Structures
+const uintptr_t AppdataInfo = REBASE(0x68333F8);
+const uintptr_t EnableLoadModule = REBASE(0x5745BE0);
+const uintptr_t FlogDataBank = REBASE(0x60842F8);
+const uintptr_t IdentityPtr = REBASE(0x6048F38);
+const uintptr_t KTable = REBASE(0x5FFC420);
+const uintptr_t LockViolationInstanceCrash = REBASE(0x5750620);
+
+const uintptr_t LuaH_DummyNode = REBASE(0x4755D18);
+const uintptr_t LuaO_NilObject = REBASE(0x47562F8);
+const uintptr_t LuaT_Eventnames = REBASE(0x4756250);
+const uintptr_t LuaT_Typenames = REBASE(0x47561F0);
+
+const uintptr_t RawScheduler = REBASE(0x6903490);
+const uintptr_t TaskSchedulerTargetFps = REBASE(0x5FFC3A8);
+
+// Functions
+const uintptr_t FireMouseClick = REBASE(0x1BB7330);
+const uintptr_t FireRightMouseClick = REBASE(0x1BB74D0);
+const uintptr_t FireMouseHoverEnter = REBASE(0x1BB88D0);
+const uintptr_t FireMouseHoverLeave = REBASE(0x1BB8A70);
+const uintptr_t FireProximityPrompt = REBASE(0x1C80BC0);
+const uintptr_t FireTouchInterest = REBASE(0x1DD6120);
+
+const uintptr_t GetContextObject = REBASE(0xE09B30);
+const uintptr_t GetCurrentThreadId = REBASE(0x388C030);
+const uintptr_t GetFFlag = REBASE(0x38ABCB0);
+const uintptr_t GetGlobalState = REBASE(0xDF04E0);
+const uintptr_t GetIdentityStruct = REBASE(0x388C260);
+const uintptr_t GetLuaState = REBASE(0xB7FCD0);
+const uintptr_t GetModuleFromVMStateMap = REBASE(0xF3C740);
+const uintptr_t GetProperty = REBASE(0xA97D20);
+const uintptr_t GetValues = REBASE(0xC0C1A0);
+
+const uintptr_t Impersonator = REBASE(0x3393290);
+const uintptr_t LuaA_toobject = REBASE(0x2641390);
+const uintptr_t LuaC_step = REBASE(0x2651C30);
+const uintptr_t LuaD_throw = REBASE(0x2652140);
+const uintptr_t LuaL_checklstring = REBASE(0x2644DB0);
+const uintptr_t LuaL_getmetafield = REBASE(0x26452B0);
+const uintptr_t LuaL_register = REBASE(0x2646C80);
+const uintptr_t LuaM_visitgco = REBASE(0x269A3B0);
+const uintptr_t LuaO_pushvfstring = REBASE(0x26AF9A0);
+const uintptr_t LuaVM_Load = REBASE(0xB841F0);
+const uintptr_t Luau_Execute = REBASE(0x2684D00);
+
+const uintptr_t Print = REBASE(0x14B9880);
+const uintptr_t Pseudo2Addr = REBASE(0x26412D0);
+const uintptr_t PushInstance1 = REBASE(0xECCCD0);
+const uintptr_t PushInstance2 = REBASE(0xECCD20);
+
+const uintptr_t RaiseEventInvocation = REBASE(0x1465D00);
+const uintptr_t RequestCode = REBASE(0x93D980);
+
+const uintptr_t ScriptContextResume = REBASE(0xE00540);
+const uintptr_t SetFFlag = REBASE(0x38AC740);
+const uintptr_t SetProtoCapabilities = REBASE(0xCA21F0);
+
+const uintptr_t TaskSynchronize = REBASE(0x1015360);
+const uintptr_t TaskDesynchronize = REBASE(0x1015890);
+const uintptr_t TaskDefer = REBASE(0x10164A0);
+const uintptr_t TaskSpawn = REBASE(0x10167D0);
+const uintptr_t TaskDelay = REBASE(0x1016B70);
+const uintptr_t TaskWait = REBASE(0x1016F20);
+const uintptr_t TaskCancel = REBASE(0x1017150);
+
+const uintptr_t VariantCastInt = REBASE(0x1449130);
+const uintptr_t VariantCastInt64 = REBASE(0x1449440);
+const uintptr_t VariantCastFloat = REBASE(0x1449A80);
+
+// DLL
+const uintptr_t BitMap = REBASEHYPERION(0x2A2370);
+const uintptr_t SetInsert = REBASEHYPERION(0xCAA3F0);
+const uintptr_t WhitelistedPages = REBASEHYPERION(0x2B92E0);
+const uintptr_t PageHash = 0x3DC80039;
+const uintptr_t ByteHash = 0x79;
